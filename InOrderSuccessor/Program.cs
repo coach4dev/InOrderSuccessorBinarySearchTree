@@ -81,5 +81,16 @@ namespace InOrderSuccessor
                 n = n.left;
             return n;
         }
+        /*
+         Tree Structure
+             8
+            / \
+           3  10
+          / \    \
+         1   6    14
+            / \   /
+           4   7  13
+       In Order: 1,3,4,6,7,8,10,13,14
+         */
     }
 }
