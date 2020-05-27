@@ -62,7 +62,7 @@ namespace InOrderSuccessor
             {
                 Node node = input;
                 Node parent = input.parent;
-                if (parent.left == node)
+                if (parent == null || parent.left == node)
                     return parent;
                 while (parent != null && parent.left != node)
                 {
